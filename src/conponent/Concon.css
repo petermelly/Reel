@@ -1,0 +1,69 @@
+.Videocontain{
+    scroll-snap-align: start;
+    background-color: #BCC0C4;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+.rightlogotop{
+    width:30px;
+    height:30px;
+    border-radius:10px;
+    background-color:black;
+    cursor:pointer;
+}
+.RightIcon{
+    position:absolute;
+    bottom: 80px;
+    right: 7px;
+    display: flex;
+    flex-direction: column;
+    color: bisque;
+    align-items: center;
+}
+.colorchange{
+    color: black;
+}
+.deletecolor{
+    color: bisque;
+}
+.allicons{
+    padding-top:10px;
+    font-size: 10px;
+    cursor:pointer;
+}
+.wordsforicons{
+    font-size: 12px;
+}
+@media (max-width:600px){
+    .Videocontain{
+        height: 400px;
+        width: 300px;
+    }
+    .RightIcon{
+        bottom: 66px;
+    }
+    .rightlogotop{
+        width:25px;
+        height: 24px;
+        font-size: 17px;
+    }
+    .wordsforicons{
+        font-size: 7px;
+    }
+}
+@media (max-width:377px){
+    .Videocontain{
+        height: 300px;
+        width: 200px;
+    }
+    .rightlogotop{
+        width:18px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .wordsforicons{
+        font-size: 5px;
+    }
+}
