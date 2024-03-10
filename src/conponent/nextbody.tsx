@@ -1,7 +1,5 @@
-import Container from "@mui/material/Container/Container";
 import Rightcon from './rightcon';
 import './Concon.css';
-import { Typography } from "@mui/material";
 
 interface Pros{
     imageURL?:string;
